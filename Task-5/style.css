@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #0055ff;
+}
+
+.container{
+    width: 60vmin;
+    padding: 30px 20px;
+    background-color: whitesmoke;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.952) 0px 8px 24px;
+}
+
+.searching-word{
+    display: flex;
+    justify-content: space-between;
+}
+
+.searching-word input{
+    width: 75%;
+    padding: 8px;
+    outline: none;
+    border: none;
+    background-color: whitesmoke;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    transform: transition(ease 0.5s);
+}
+
+.searching-word input:hover{
+    border-bottom: 2px solid #0055ff;
+    transform: transition(ease 0.5s);
+    transform: translate(scale(1.1));
+}
+
+
+.searching-word button{
+    width: 19%;
+    padding: auto;
+    outline: none;
+    border: none;
+    background-color: white;
+    color: #0055ff;
+    font-size: 15px;
+    border-radius: 5px;
+    /* cursor: pointer; */
+    border: 1px solid #0055ff;
+    transition: ease 0.3s;
+}
+
+.searching-word button:hover{
+    /* border: 1px solid rgba(34, 31, 31, 0.692); */
+    color:white;
+    background-color: #0055ff;
+    box-sizing: border-box;
+    box-shadow: rgba(52, 53, 54, 0.5) 0px 8px 24px;
+    transition: ease 0.2s;
+    transform: translate(scale(1.1));
+    cursor:pointer;
+}
+
+.sample-word{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.sample-word h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sample-word button{
+    border: none;
+    outline: none;
+    font-size: medium;
+    /* background: transparent; */
+    color: rgb(126, 126, 126);
+    transition: ease 0.2s;
+}
+
+.sample-word button:hover{
+    /* filter: drop-shadow(rgba(0, 0, 0, 0.897) 0px 8px 24px); */
+    /* text-shadow: rgb(0, 0, 0) 0px 8px 24px; */
+    color: #0055ff;
+    translate: scale(1.1);
+    transition: ease 0.2s;
+    cursor: pointer
+}
+
+.like-ele{
+    display: flex;
+    margin-top: 5px;
+    color: #0055ff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 50;
+    font-size: 13px;
+}
+
+.meaning{
+    margin-top: 15px;
+    word-wrap: break-word;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.explanation{
+    margin-top: 20px;
+    border-left: 2px solid #0055ff;
+}
+
+.exp-mess{
+    margin-left: 5px;
+    font-size: 15px;
+}

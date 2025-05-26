@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="heading">
+        <h2>Form - Client Side Verification</h2>
+    </div>
+
+    <form id="form" class="form">
+
+        <div class="forms Name">
+            <label for="name">Name : </label>
+            <input type="text"  id="name" placeholder="Enter your name" required><br>
+            <span id="nameError" style="font-size: 15px; color: red;"></span>
+        </div>
+
+        <div class="forms contact">
+            <label for="contact">Contact : </label>
+            <input type="number"  id="phone" id="phNum" placeholder="Enter your Contact Number" required><br>
+            <span id="numError" style="font-size: 15px; color: red;"></span>
+        </div>
+
+        <div class="forms Username" >
+            <label for="Username">Username : </label>
+            <input type="text" id="Usrname" placeholder="Enter your Username" required><br>
+            <span id="userError" style="font-size: 15px; color: red;"></span>
+        </div>
+
+        <div class="forms Email">
+            <label for="mail">Email : </label>
+            <input type="email"  id="email" placeholder="Enter your Email" required> <br>
+            <span id="emailError" style="font-size: 15px; color: red;"></span>
+        </div>
+
+        <div class="forms password">
+            <label for="Password">Password : </label>
+            <input type="password"  id="pass" placeholder="Enter your Password" required><br>
+            <span id="passError" style="font-size: 15px; color: red;"></span>
+        </div>
+
+        <button type="submit" id="btn">Submit</button>
+
+    </form>
+
+    <script src="script.js"></script>
+    
+</body>
+
+</html>
+
